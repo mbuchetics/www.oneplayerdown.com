@@ -8,7 +8,7 @@ html {
 
 html, body {
     font-family: "lft-etica",Helvetica,Arial,sans-serif;
-    background-color: transparent;
+    background-color: rgba(253,116,0,.2);
     height: 100%;
 }
 
