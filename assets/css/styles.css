@@ -1,5 +1,5 @@
 html { 
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  background: url(../img/bg-basketball.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,6 +14,14 @@ html, body {
 
 .center {
     text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 6px;
 }
 
 #box {
@@ -72,7 +80,7 @@ html, body {
 
 #wrap .container {
     position: relative;
-    padding-top: 10%;
+    padding-top: 50px;
     padding-bottom: 10px;
 }
 
@@ -87,7 +95,7 @@ html, body {
 }
 
 #footer ul {
-        margin: 20px 0;
+    margin: 20px 0;
 }
 
 #footer ul li {
@@ -100,4 +108,19 @@ html, body {
 #footer ul li:first-child {
     padding-left: 0px;
     border: 0px;
+}
+
+.tagline-intro {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 700;
+    //font-family: myriad-pro;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
